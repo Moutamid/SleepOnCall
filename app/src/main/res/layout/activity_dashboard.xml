@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Creamy"
+    tools:context=".activities.DashboardActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="12sp"
+        app:cardBackgroundColor="@color/Creamy"
+        app:cardElevation="6sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/backBtn"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="12sp"
+                android:gravity="center_vertical"
+                android:text="@string/app_name"
+                android:layout_weight="1"
+                android:textColor="@color/dark_grey"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/coins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/backBtn"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="12sp"
+                android:gravity="center_vertical"
+                android:text="12"
+                android:textStyle="bold"
+                android:drawableTint="@color/coin"
+                android:drawableStart="@drawable/coins_solid"
+                android:drawablePadding="12sp"
+                android:textColor="@color/dark_grey"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_above="@id/bottom" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:cardCornerRadius="0sp"
+        android:layout_alignParentBottom="true"
+        app:cardBackgroundColor="@color/Creamy"
+        app:cardElevation="8sp">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNav"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:menu="@menu/bottom_nav"
+            app:labelVisibilityMode="unlabeled"
+            android:background="@color/Creamy"
+            android:layout_alignParentBottom="true" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

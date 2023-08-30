@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/feed_nav"
+        android:title="Feed"
+        android:icon="@drawable/signs_post_solid" />
+
+    <item android:id="@+id/buy_nav"
+        android:title="Purchase"
+        android:icon="@drawable/store_solid" />
+
+    <item android:id="@+id/profile_nav"
+        android:title="Profile"
+        android:icon="@drawable/user_solid" />
+</menu>

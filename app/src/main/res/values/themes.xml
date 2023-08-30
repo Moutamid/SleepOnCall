@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SleepOnCall" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/Pink</item>
+        <item name="colorPrimaryVariant">@color/Pink</item>
+        <item name="colorOnPrimary">@color/dark_grey</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:includeFontPadding">false</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Lavender</item>
+        <item name="colorSecondaryVariant">@color/Lavender</item>
+        <item name="colorOnSecondary">@color/Creamy</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/Creamy</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="Theme.SleepOnCall" parent="Base.Theme.SleepOnCall" />
+</resources>

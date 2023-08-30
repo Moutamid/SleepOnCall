@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#414142</color>
+    <color name="dark_grey">#333333</color>
+    <color name="Soft_Blue">#6FB0D2</color>
+    <color name="coin">#f2a900</color>
+    <color name="Lavender">#A791C5</color>
+    <color name="Warm_grey">#AFAFAF</color>
+    <color name="Creamy">#FDFDFD</color>
+    <color name="Pink">#FFB7C5</color>
+    <color name="radio_uncheck">#E9E9E9</color>
+</resources>
