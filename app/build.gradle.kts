@@ -38,7 +38,7 @@ android {
 }
 
 dependencies {
-    implementation("com.fxn769:stash:1.3.2")
+    implementation("com.github.akshay2211:Stash:1c45b0e5d5")
 
     implementation("com.github.angads25:toggle:1.1.0")
     implementation("io.github.ShawnLin013:number-picker:2.4.13")
